@@ -1,4 +1,5 @@
 using System;
+using XRL.Core;
 
 namespace XRL.World.Parts {
     [Serializable] public class helado_TesiSpawner : IPart {
@@ -8,7 +9,7 @@ namespace XRL.World.Parts {
             base.Name = "helado_TesiSpawner"; }
 
         public override bool FireEvent (Event e) {
-            if (e.ID == "EnteredCell" && !didAlreadySpawnTesi) {
+            if (e.ID == "EnteredCell" && !didAlreadySpawnTesi && XRLCore.Core.Game.GetStringGameState ("embark") != "&YJoppa") {
                 Physics physics = this.ParentObject.GetPart ("Physics") as Physics;
                 GameObject tesi = GameObjectFactory.Factory.CreateObject ("helado_Tesi");
                 physics.CurrentCell.getClosestReachableCell ().AddObject (tesi);
