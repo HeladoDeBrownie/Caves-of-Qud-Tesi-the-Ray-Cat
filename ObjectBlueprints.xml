@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
-    <object Name="helado_Tesi" Inherits="Ctesiphus"/>
+    <object Name="helado_Tesi" Inherits="Ray Cat">
+        <part Name="Render" DisplayName="Tesi" Tile="creatures/sw_kitty.bmp" RenderString="l" ColorString="&amp;c" />
+        <part Name="Brain" Wanders="True" Calm="True" Factions="Pariahs-100" />
+        <part Name="Description" Short="An odd feeling of familiarity tugs fruitlessly at your bemused recollection as you behold this creature; an implacible nostalgia washes in with the tides of space-time.
+
+&amp;mphosphorescent&amp;y" />
+        <part Name="Raycat" />
+        <part Name="Pettable" pettableIfPositiveFeeling="True" useFactionForFeelingFloor="Pariahs" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <part Name="AISelfPreservation" Threshold="40" />
+        <tag Name="Gender" Value="nonspecific" />
+        <xtagGrammar Proper="true" />
+    </object>
     <object Name="Lulihart" Load="Merge">
         <part Name="helado_TesiSpawner"/>
     </object>
