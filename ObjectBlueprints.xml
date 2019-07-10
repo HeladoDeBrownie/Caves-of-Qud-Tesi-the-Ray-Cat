@@ -12,6 +12,7 @@
         <part Name="AISelfPreservation" Threshold="40" />
         <tag Name="Gender" Value="nonspecific" />
         <xtagGrammar Proper="true" />
+        <part Name="ConversationScript" ConversationID="helado_Tesi" />
     </object>
     <object Name="Lulihart" Load="Merge">
         <part Name="helado_TesiSpawner"/>

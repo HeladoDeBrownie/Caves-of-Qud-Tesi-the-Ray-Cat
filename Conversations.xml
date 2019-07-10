@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+    <conversation ID="helado_Tesi">
+        <node ID="Start">
+            <text>Mew?</text>
+            <choice GotoID="Story">What's your story, cat?</choice>
+            <choice GotoID="End">Live and drink.</choice>
+        </node>
+        <node ID="Story">
+            <text>Mrowl?</text>
+            <choice GotoID="End">Live and drink.</choice>
+        </node>
+    </conversation>
+</conversations>
