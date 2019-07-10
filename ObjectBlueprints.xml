@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <object Name="helado_Tesi" Inherits="Ctesiphus"/>
+    <object Name="Lulihart" Load="Merge">
+        <part Name="helado_TesiSpawner"/>
+    </object>
+</objects>
