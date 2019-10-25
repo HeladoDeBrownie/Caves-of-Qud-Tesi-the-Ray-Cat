@@ -10,4 +10,11 @@
             <choice GotoID="End">Live and drink.</choice>
         </node>
     </conversation>
+
+    <conversation ID="helado_Tesseract">
+        <node ID="Start">
+            <text>&amp;R&#xE6;?</text>
+            <choice GotoID="End">I-I'm sorry. I'll go.</choice>
+        </node>
+    </conversation>
 </conversations>
