@@ -22,9 +22,13 @@
     </object>
 
     <object Name="helado_Tesseract" Inherits="helado_Base Tesi">
+        <part Name="Body" Anatomy="helado_FiveMouthedQuadruped"/>
         <part Name="Render" DisplayName="&amp;OTesseract" ColorString="&amp;O"/>
         <part Name="Description" Short="A cat who should not be."/>
         <part Name="ConversationScript" ConversationID="helado_Tesseract"/>
+        <part Name="helado_TesseractProperties"/>
+
+        <inventoryobject Blueprint="Cat Bite" Number="4"/>
     </object>
 
     <object Name="Lulihart" Load="Merge">

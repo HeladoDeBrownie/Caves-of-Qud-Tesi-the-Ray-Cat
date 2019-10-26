@@ -1,0 +1,26 @@
+<bodies>
+    <bodyparttypevariants>
+        <bodyparttypevariant VariantOf="Face" Type="Gaping Maw"/>
+    </bodyparttypevariants>
+    <anatomies>
+        <anatomy Name="helado_FiveMouthedQuadruped">
+            <part Type="Head">
+                <part Type="Face"/>
+                <part Type="Gaping Maw" Laterality="Right Fore"/>
+                <part Type="Gaping Maw" Laterality="Left Fore"/>
+                <part Type="Gaping Maw" Laterality="Right Hind"/>
+                <part Type="Gaping Maw" Laterality="Left Hind"/>
+            </part>
+            <part Type="Back"/>
+            <part Type="Foot" Laterality="Right Fore" SupportsDependent="Forefeet"/>
+            <part Type="Foot" Laterality="Left Fore" SupportsDependent="Forefeet"/>
+            <part Type="Foot" Laterality="Right Hind" SupportsDependent="Hindfeet"/>
+            <part Type="Foot" Laterality="Left Hind" SupportsDependent="Hindfeet"/>
+            <part Type="Missile Weapon" Laterality="Right"/>
+            <part Type="Missile Weapon" Laterality="Left"/>
+            <part Type="Feet" Laterality="Fore" DependsOn="Forefeet" Mobility="0"/>
+            <part Type="Feet" Laterality="Hind" DependsOn="Hindfeet" Mobility="0"/>
+            <part Type="Tail"/>
+        </anatomy>
+    </anatomies>
+</bodies>
